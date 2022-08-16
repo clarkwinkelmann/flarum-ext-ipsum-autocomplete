@@ -1,0 +1,19 @@
+.ComposerBody-loremIpsumWrapper {
+    position: relative;
+}
+
+.LoremIpsumAutocomplete {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 5px; // Same as .MentionsDropdown
+
+    input {
+        width: 4em;
+    }
+}
+
+@media @phone {
+    .LoremIpsumAutocomplete {
+        max-width: 100%;
+    }
+}
